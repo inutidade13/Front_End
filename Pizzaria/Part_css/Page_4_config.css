@@ -1,0 +1,74 @@
+:root {
+
+    --color-primary:#0073ff;
+    --color-white:#e9e9e9;
+    --color-black:#141d28;
+    --color-black-1:#212b38;
+    --cor-primaria-succes:#800505f1;
+ }
+ 
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ header{
+ 
+     font-family:sans-serif;
+ }
+ 
+ .menu {
+     background-color:#800505f1;
+     height: 80px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 5%; 
+ }
+ 
+ .logo{
+     color:#e9e9e9 ;
+     font-size: 30px;
+ }
+ .logo span{
+     color:#df752e;
+ }
+ 
+ .menu ul{
+     list-style: none;
+     display: flex;
+ }
+ 
+ .menu ul li{
+     padding: 10px;
+ }
+ 
+ .menu ul li a{
+     color: #e9e9e9; 
+     text-decoration: none;
+     font-size: 20px;
+     transition: all 0.4s;
+ }
+ 
+ .menu ul li a:hover{
+     color: #0073ff;
+ }
+
+body{
+    font-family:sans-serif;
+    background-color: #800505;
+    text-align: center;
+    color: #e9e9e9;
+    font-size: 10px;
+ }
+
+ .rodaPe{
+    font-family:sans-serif;
+    background-color: #800505;
+    text-align: center;
+    color: #e9e9e9;
+    font-size: 10px;
+ }
+ 
